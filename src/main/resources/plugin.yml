@@ -1,0 +1,10 @@
+name: RandomTip
+version: '${project.version}'
+main: me.buch.RandomTip
+api-version: 1.17
+authors: [ BuchNieZyje ]
+commands:
+  Tip:
+    description: daje informacje
+    usage: /Tip
+
