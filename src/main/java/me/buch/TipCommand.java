@@ -19,7 +19,7 @@ public class TipCommand implements TabExecutor {
         if(args.length == 0){
         List<String> tips = RandomTip.instance.getConfig().getStringList("tips");
         String Tips1 = tips.get(new Random().nextInt(tips.size()));
-        sender.sendMessage(Prefix+"" + ChatColor.translateAlternateColorCodes('&',Tips1));
+        sender.sendMessage(ChatColor.translateAlternateColorCodes('&',Prefix)+" " + ChatColor.translateAlternateColorCodes('&',Tips1));
         }
 
 
